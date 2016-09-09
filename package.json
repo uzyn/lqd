@@ -1,11 +1,20 @@
 {
-  "name": "liquid",
+  "name": "lqd",
   "version": "0.0.1",
   "description": "Ethereum deployment CLI helper",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uzyn/lqd.git"
   },
+  "keywords": [
+    "ethereum",
+    "dapp",
+    "webpack",
+    "liquid",
+    "lqd",
+    "deployment"
+  ],
   "author": "U-Zyn Chua <chua@uzyn.com>",
   "license": "MIT",
   "dependencies": {
