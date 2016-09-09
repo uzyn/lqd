@@ -17,9 +17,17 @@
   ],
   "author": "U-Zyn Chua <chua@uzyn.com>",
   "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "lqd": "index.js"
+  },
   "dependencies": {
+    "opt": "^0.1.14",
     "solc-loader": "^1.1.0",
     "web3-loader": "^1.1.0",
     "webpack": "^1.13.2"
+  },
+  "peerDependencies": {
+    "web3": "*"
   }
 }
